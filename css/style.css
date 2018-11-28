@@ -1,0 +1,71 @@
+#title h1 {
+  text-shadow: 4px 4px 4px #aaa;
+  margin: 10px auto;
+  font-size: 3.5em;
+  color: #333;
+  font-family: 'Tahoma', serif;
+}
+
+#intro-paragraph {}
+
+#quote-box {
+  border: solid 1px black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  min-height: 14em;
+  width: 80%;
+  margin: auto;
+}
+
+#quote-holder {
+  background: transparent;
+  min-height: 11em;
+  width: 80%;
+  margin: auto;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+}
+
+#quote-author-holder {
+  background: transparent;
+  min-height: 3em;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#button-holder {
+  margin: 20px 0 0 0;
+}
+
+button {
+  background: linear-gradient(#FDFDFD, #DEDCDF);
+  border: 1px solid #C3C7C8;
+  border-radius: 2px;
+  height: 3em;
+  width: 200px;
+  text-shadow: 1px 1px white;
+  font-weight: bold;
+}
+
+#new-quote-button {
+  color: black;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(#eee #fff);
+  box-shadow: inset 0 0 1px 1px #54AED0;
+}
+
+#tweet-button {
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(#30CCFC, #2CC5EF);
+  box-shadow: inset 0 0 1px 1px #54AED0;
+}
+
+#tweet-button a {
+  color: white;
+}
